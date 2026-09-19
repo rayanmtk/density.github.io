@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Density Privacy Policy">
+    <title>Privacy — Density</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="document-page">
+    <header class="site-header">
+        <a class="brand" href="/" aria-label="Density home">
+            <img src="../assets/density.svg" alt="" class="brand-mark">
+            <span>Density</span>
+        </a>
+        <button class="menu-button" id="menuButton" type="button" aria-label="Open menu"
+                aria-expanded="false" aria-controls="siteMenu">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="menu" id="siteMenu" aria-label="Site navigation">
+            <a href="/terms">Terms</a>
+            <a href="/privacy">Privacy</a>
+            <a href="mailto:densityapp@proton.me">Contact</a>
+        </nav>
+    </header>
+
+    <main class="document-wrap">
+        <a class="back-link" href="/">← Home</a>
+        <article class="markdown" data-markdown="privacy.md" aria-live="polite">
+            <p>Loading…</p>
+        </article>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>
